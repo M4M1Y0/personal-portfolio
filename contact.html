@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+    
+            <!-- Logo -->
+            <a href="index.html" class="logo">Portfolio Website</a>
+    
+            <!-- Mobile Menu Button -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    
+            <!-- Navigation -->
+            <ul class="nav-links">
+    
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+    
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+    
+                <!-- Services Dropdown -->
+                <li class="dropdown">
+                    <a href="services.html" class="dropbtn">
+                        Services ▾
+                    </a>
+    
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="web-development.html">
+                                Web Development
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="crochet-crafts.html">
+                                Crochet Crafts
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+    
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>Have a question? Send us a message.</p>
+    </section>
+
+    <section class="contact-section">
+        <form class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Enter your message"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn primary-btn">
+                Send Message
+            </button>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 MyWebsite. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
